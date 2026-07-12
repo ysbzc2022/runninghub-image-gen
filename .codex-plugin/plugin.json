@@ -1,0 +1,19 @@
+﻿{
+  "name": "runninghub-image-gen",
+  "version": "0.1.0",
+  "description": "RunningHub seedream-v5-lite text-to-image generation via MCP",
+  "mcpServers": {
+    "runninghub-image-gen": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "${workspaceFolder}/work/runninghub-image-gen",
+        "run",
+        "runninghub-image-gen"
+      ],
+      "env": {
+        "RUNNINGHUB_API_KEY": "${RUNNINGHUB_API_KEY}"
+      }
+    }
+  }
+}
